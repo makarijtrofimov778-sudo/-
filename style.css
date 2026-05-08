@@ -1,0 +1,117 @@
+h1 {
+    text-align: center;
+    color: #a85522;
+    text-shadow: 2px 4px 6px #000;
+}
+
+body {
+background-image: url('img/mars.png');
+background-size: cover;
+background-position: center;
+ background-attachment: fixed; 
+ background-repeat: no-repeat;
+ min-height: 100vh;
+ font-family: 'Comfortaa', sans-serif;
+ padding-top: 60px;
+}
+
+ul {
+    text-align: center;
+    color: white;
+    list-style-position: inside;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    text-align: center;
+}
+
+
+    .Misia {
+    text-align: left;
+    color: white;
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+    }
+
+    
+
+.Misia li {
+    margin-bottom: 15px;
+}
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background: #111;
+    color: #aaa;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #a85522;
+    font-size: 14px;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    background-color: #a85522;
+    color: white;
+    padding: 14px 36px;
+    border: 2px solid #d4723a;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 0 12px rgba(168, 85, 34, 0.6);
+}
+
+.btn:hover {
+    background-color: #c96a2e;
+}
+
+.btn:active {
+    background-color: #7a3d18;
+}
+
+a {
+    text-decoration: none;
+}
